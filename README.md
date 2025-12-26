@@ -4,28 +4,22 @@ Minimalist logs and notes of my full-stack learning journey with [Harkirat Singh
 
 ---
 
-## � Directory Index
+## 📂 Directory Index
 
 ### 📁 `Web-Dev-Warmup/`
 
 #### 📂 `Html-Css-basics-simple-zerodha-app/`
 
-- � **[Class Notes](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/notes.md)** - Covering Tags, Attributes, Flexbox, and DOM basics.
-- 🛠️ **Project: Zerodha Landing Page**
-  - `Code`: [Ugly Version](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.html) | [Nice Version](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.html)
-  - `Preview`: [Ugly Image](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.png) | [Nice Image](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.png)
+- 📝 **[Class Notes](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/notes.md)** - Covering Tags, Attributes, Flexbox, and DOM basics.
 
 ---
 
-## 🖼️ Evolution Preview
+## �️ Evolution: Zerodha Clone
 
-### 1. Simple HTML (The "Ugly" Version)
-
-![Ugly Zerodha](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.png)
-
-### 2. Styled with CSS (The "Nice" Version)
-
-![Nice Zerodha](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.png)
+| Version                | Visual Preview                                                                               | Code                                                                            |
+| :--------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Ugly** (HTML only)   | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.png" width="300"> | [Source](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.html) |
+| **Nice** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.png" width="300"> | [Source](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.html) |
 
 ---
 
