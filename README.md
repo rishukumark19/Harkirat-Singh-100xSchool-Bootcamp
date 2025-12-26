@@ -2,7 +2,7 @@
 
 Minimalist logs and notes of my full-stack learning journey.
 
-- 🎓 **Course**: [100xDevs - Full Stack Cohort 3.0](https://harkirat.classx.co.in/new-courses/24)
+- 🎓 **Course**: [100xSchool Bootcamp](https://harkirat.classx.co.in/new-courses/24)
 - 👨‍🏫 **Instructor**: [Harkirat Singh](https://github.com/hkirat) ([Twitter](https://x.com/kirat_tw))
 
 ---
