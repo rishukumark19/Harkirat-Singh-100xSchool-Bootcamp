@@ -10,7 +10,7 @@ Minimalist logs and notes of my full-stack learning journey with [Harkirat Singh
 
 #### 📂 `Html-Css-basics-simple-zerodha-app/`
 
-- 📝 **[Class Notes](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/notes.md)** - Covering Tags, Attributes, Flexbox, and DOM basics.
+- 📝 **[HTML CSS Learning Notes](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/html-css-learning-notes.md)**
 
 ---
 
