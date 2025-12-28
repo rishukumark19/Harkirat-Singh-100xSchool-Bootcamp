@@ -19,6 +19,16 @@ Minimalist logs and notes of my full-stack learning journey.
 
 ---
 
+## 🖼️ Image Gallery
+
+| Preview 1 | Preview 2 |
+| :---: | :---: |
+| <img src="./Web-Dev-Warmup/Html & Css Vs-code/code.png" width="300"> | <img src="./Web-Dev-Warmup/Html & Css Vs-code/vs-code-landing-page.png" width="300"> |
+| <img src="./Web-Dev-Warmup/Html & Css Vs-code/vs-code-logo.png" width="300"> | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.png" width="300"> |
+| <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.png" width="300"> | <img src="./Web-Dev-Warmup/Html & Css Vs-code/window-logo.svg" width="300"> |
+
+---
+
 ## 🖼️ Evolution: Zerodha Clone
 
 | Version                | Visual Preview                                                                               | Code                                                                            |
