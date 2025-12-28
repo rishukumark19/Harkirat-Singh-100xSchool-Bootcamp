@@ -21,16 +21,16 @@ Minimalist logs and notes of my full-stack learning journey.
 
 ## 🖼️ Evolution: Zerodha Clone
 
-| Version                | Visual Preview                                                                               | Code                                                                            |
-| :--------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
-| **Ugly** (HTML only)   | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.png" width="800"> | [Source](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.html) |
-| **Nice** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.png" width="800"> | [Source](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.html) |
+| Version                | Visual Preview                                                                                | Code                                                                            |
+| :--------------------- | :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| **Ugly** (HTML only)   | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.png" width="1000"> | [Source](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.html) |
+| **Nice** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.png" width="1000"> | [Source](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.html) |
 
 ## 🖼️ Evolution: VS-Code Landing Page Clone
 
-| Version                 | Visual Preview                                                                         | Code                                                                      |
-| :---------------------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ |
-| **Final** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.png" width="800"> | [Source](./Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.html) |
+| Version                 | Visual Preview                                                                          | Code                                                                      |
+| :---------------------- | :-------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ |
+| **Final** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.png" width="1000"> | [Source](./Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.html) |
 
 ---
 
