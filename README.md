@@ -15,6 +15,8 @@ Minimalist logs and notes of my full-stack learning journey.
 
 - 📝 **[HTML CSS Learning Notes](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/html-css-learning-notes.md)**
 
+#### 📂 `Html & Css Vs-code/`
+
 ---
 
 ## 🖼️ Evolution: Zerodha Clone
@@ -23,6 +25,12 @@ Minimalist logs and notes of my full-stack learning journey.
 | :--------------------- | :------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
 | **Ugly** (HTML only)   | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.png" width="300"> | [Source](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.html) |
 | **Nice** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.png" width="300"> | [Source](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.html) |
+
+## 🖼️ Evolution: VS-Code Landing Page Clone
+
+| Version          | Visual Preview                                                                         | Code                                                                              |
+| :--------------- | :------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| **Final** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html & Css Vs-code/vs-code-landing-page.png" width="300"> | [Source](./Web-Dev-Warmup/Html & Css Vs-code/vs-code-landing-page.html) |
 
 ---
 
