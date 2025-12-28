@@ -15,17 +15,7 @@ Minimalist logs and notes of my full-stack learning journey.
 
 - 📝 **[HTML CSS Learning Notes](./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/html-css-learning-notes.md)**
 
-#### 📂 `Html & Css Vs-code/`
-
----
-
-## 🖼️ Image Gallery
-
-| Preview 1 | Preview 2 |
-| :---: | :---: |
-| <img src="./Web-Dev-Warmup/Html & Css Vs-code/code.png" width="600"> | <img src="./Web-Dev-Warmup/Html & Css Vs-code/vs-code-landing-page.png" width="600"> |
-| <img src="./Web-Dev-Warmup/Html & Css Vs-code/vs-code-logo.png" width="600"> | <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/nice-zerodha.png" width="600"> |
-| <img src="./Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/ugly-zerodha.png" width="600"> | <img src="./Web-Dev-Warmup/Html & Css Vs-code/window-logo.svg" width="600"> |
+#### 📂 `Html-and-Css-Vs-code/`
 
 ---
 
@@ -38,9 +28,9 @@ Minimalist logs and notes of my full-stack learning journey.
 
 ## 🖼️ Evolution: VS-Code Landing Page Clone
 
-| Version          | Visual Preview                                                                         | Code                                                                              |
-| :--------------- | :------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-| **Final** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html & Css Vs-code/vs-code-landing-page.png" width="600"> | [Source](./Web-Dev-Warmup/Html & Css Vs-code/vs-code-landing-page.html) |
+| Version                 | Visual Preview                                                                         | Code                                                                      |
+| :---------------------- | :------------------------------------------------------------------------------------- | :------------------------------------------------------------------------ |
+| **Final** (CSS Flexbox) | <img src="./Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.png" width="600"> | [Source](./Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.html) |
 
 ---
 
