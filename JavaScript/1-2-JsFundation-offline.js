@@ -127,6 +127,3 @@ const currentDate = new Date();
 console.log(currentDate.getDate());
 console.log(currentDate.getFullYear());
 
-//Setting components of the date
-
-console.log("time in milliseconds since 1970: ", currentDate.getDate());
