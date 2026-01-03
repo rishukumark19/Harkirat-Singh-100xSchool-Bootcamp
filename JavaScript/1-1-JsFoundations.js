@@ -191,10 +191,37 @@ let seconds = now.getSeconds(); // get seconds
 
 console.log(hours + ":" + minutes + ":" + seconds);
 
-Upcoming :
+
 10.Callback functions, Event loop, callback queue, Asynchronous programming
 -----------------------------------------------------------------------------
+-callback function : passing function as an argument to another function
 
+*/
+function square(n) {
+  return n * n;
+}
+
+function sumOfSquares(a, b) {
+  const val1 = square(a);
+  const val2 = square(b);
+  return val1 + val2;
+}
+const ans = sumOfSquares(2, 3);
+console.log(ans);
+function square(a) {
+  return a * a;
+}
+function sumOfSomething(a, b, fn) {
+  //fn is a callback function
+  const val1 = fn(a);
+  const val2 = fn(b);
+  return val1 + val2;
+}
+console.log(sumOfSomething(2, 3, square)); //prints 13
+/*
+
+Upcoming:
+  
 11.Callback hell and Promises
 ------------------------------
 Async functions vs sync functions
