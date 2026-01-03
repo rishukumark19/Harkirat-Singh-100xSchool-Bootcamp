@@ -17,6 +17,20 @@ Minimalist logs and notes of my full-stack learning journey.
 
 #### 📂 `Html-and-Css-Vs-code/`
 
+### 📁 `JavaScript/`
+
+- 📝 **[JS Foundations](./JavaScript/1-1-JsFoundations.js)**
+- 📝 **[JS Foundation Offline](./JavaScript/1-2-JsFundation-offline.js)**
+- 📝 **[JS APIs](./JavaScript/2-JsApi.js)
+
+---
+
+## 🖼️ Evolution: Js Pre Requisite
+
+| Version | Visual Preview                                                  |
+| :------ | :-------------------------------------------------------------- |
+| **1**   | <img src="./JavaScript/JsPre.png" width="1000"> |
+
 ---
 
 ## 🖼️ Evolution: Zerodha Clone
