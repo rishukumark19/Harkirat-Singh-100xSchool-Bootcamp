@@ -151,3 +151,84 @@ calculateSum();
 const afterDate = new Date();
 const afterTimeInMs = afterDate.getTime();
 console.log("time taken in ms:", afterTimeInMs - beforeTimeInMs);
+
+//JSON: JavaScript Object Notation
+const user = {
+  name: "John",
+  age: 30,
+  city: "New York",
+};
+console.log(user);
+console.log(user["name"]);
+
+//JSON.parse
+//JSON.stringify
+const userJSON = JSON.stringify(user); //convert to JSON string
+console.log("JSON String:", userJSON);
+
+const userObj = JSON.parse(userJSON); //convert back to object
+console.log("Parsed Object:", userObj);
+
+//Math
+console.log(Math.random()); //random number between 0 and 1
+console.log(Math.floor(Math.random() * 10)); //random number between 0 and 9
+console.log(Math.ceil(4.3)); //5 //rounds up
+console.log(Math.floor(4.7)); //4 //rounds down
+console.log(Math.round(4.5)); //5 //rounds to nearest integer
+console.log(Math.sqrt(16)); //4 //square root
+console.log(Math.pow(2, 3)); //8 //2 to the power of 3
+console.log(Math.min(1, 2, 3, -4, 5)); //-4 //minimum value
+console.log(Math.max(1, 2, 3, -4, 5)); //5 //maximum value
+console.log(Math.abs(-10)); //10 //absolute value
+console.log(Math.sin(Math.PI / 2)); //1 //sine of 90 degrees
+console.log(Math.cos(0)); //1 //cosine of 0 degrees
+console.log(Math.tan(Math.PI / 4)); //1 //tangent of 45 degrees
+console.log(Math.log(1)); //0 //natural logarithm
+console.log(Math.exp(1)); //2.718281828459045 //e to the power of 1
+console.log(Math.log10(100)); //2 //base 10 logarithm
+console.log(Math.log2(8)); //3 //base 2 logarithm
+console.log(Math.cbrt(27)); //3 //cube root
+console.log(Math.trunc(4.9)); //4 //removes decimal part
+console.log(Math.fround(1.5)); //1.5 //rounds to nearest 32-bit float
+console.log(Math.hypot(3, 4)); //5 //hypotenuse of a right triangle
+console.log(Math.clz32(1)); //31 //count leading zeros in 32-bit integer
+console.log(Math.imul(2, 4)); //8 //32-bit integer multiplication
+console.log(Math.sign(-5)); //-1 //sign of a number
+
+//Objects
+const sampleObject = {
+  name: "Alice",
+  age: 25,
+  city: "Wonderland",
+};
+console.log("Object:", sampleObject);
+//keys
+const keys = Object.keys(sampleObject);
+console.log("Keys:", keys);
+//values
+const values = Object.values(sampleObject);
+console.log("Values:", values);
+//entries
+const entries = Object.entries(sampleObject);
+console.log("Entries:", entries);
+//hasOwnProperty
+console.log("Has name property:", sampleObject.hasOwnProperty("name"));
+console.log("Has country property:", sampleObject.hasOwnProperty("country"));
+//delete property
+delete sampleObject.city;
+console.log("After deleting city:", sampleObject);
+//assign
+const additionalInfo = { country: "Fantasy", occupation: "Adventurer" };
+const updatedObject = Object.assign({}, sampleObject, additionalInfo);
+console.log("After assign:", updatedObject);
+//freeze
+Object.freeze(updatedObject);
+updatedObject.age = 30; //will not change
+console.log("After freeze attempt to change age:", updatedObject);
+//seal
+Object.seal(updatedObject);
+delete updatedObject.name; //will not delete
+console.log("After seal attempt to delete name:", updatedObject);
+//getOwnPropertyNames
+const propNames = Object.getOwnPropertyNames(updatedObject);
+console.log("Property Names:", propNames);
