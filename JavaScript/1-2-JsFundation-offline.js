@@ -123,7 +123,31 @@ let cat = new Animal("cat", 4, "meow");
 // cat.speaks(); //calling function
 
 //Dates class
-const currentDate = new Date();
-console.log(currentDate.getDate());
-console.log(currentDate.getFullYear());
+const date = new Date();
+console.log("current date is", date.getDate());
+console.log("current month is", date.getMonth() + 1); //month is 0 based
+console.log("current year is", date.getFullYear());
 
+console.log("current hours is", date.getHours());
+console.log("current minutes is", date.getMinutes());
+console.log("current seconds is", date.getSeconds());
+
+//Important: time in milliseconds since jan 1 1970
+const currentDate = new Date();
+console.log("current time in ms since jan 1 1970:", currentDate.getTime());
+//epoch timestamp
+
+function calculateSum() {
+  let a = 0;
+  for (let i = 0; i < 100000; i++) {
+    a = a + 1;
+  }
+  return a;
+}
+const beforeDate = new Date();
+const beforeTimeInMs = beforeDate.getTime();
+
+calculateSum();
+const afterDate = new Date();
+const afterTimeInMs = afterDate.getTime();
+console.log("time taken in ms:", afterTimeInMs - beforeTimeInMs);
