@@ -259,35 +259,4 @@ function sumOfSomething(a, b, fn) {    //fn is a callback function
 }                                         //functional argument
 console.log(sumOfSomething(2, 3, square)); //prints 13
 
-
--Async functions 
-What does sync and async mean?
---------------------------------
-synchronous (means together,only one thing happening at a time) code-blocking code-executes line by line
-asynchronous code-non blocking code-executes independently ( delegating and context switching)
-*/
-
-/*
-
-
-
-Upcoming:
-
-
--Promises 
--JS functions  
--Async await
----------------------------------------------
-
-What does sync and async mean?
---------------------------------
-synchronous (means together,only one thing happening at a time) code-blocking code-executes line by line
-asynchronous code-non blocking code-executes independently ( delegating and context switching)
-
-
-Intro to Asynchronous function (setTimeout)- global function provided by JS
----------------------------------------------
--setTimeout(function, delay in ms)
--calls after a delay
-
 */
