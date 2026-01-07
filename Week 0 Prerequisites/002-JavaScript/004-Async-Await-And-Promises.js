@@ -27,8 +27,8 @@ function findSum(n) {
 }
 
 function findSumTill100() {
-  return findSum(100);
+  console.log(findSum(100));
 }
 
-setTimeout(findSumTill100, 1000);
-console.log("hello world");
+setTimeout(findSumTill100, 1000); //this is print later after 1 second
+console.log("hello world"); //this is print first
