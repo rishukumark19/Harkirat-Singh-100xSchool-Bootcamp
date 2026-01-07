@@ -1,10 +1,27 @@
 /*
 -----------Javascript Foundation------------
+TOPICS:
+        Why languages?
+        Interpreted vs compiled languages
+        Why JS >> Other languages in some use-cases
+        Strict vs dynamic languages
+        Single threaded nature of JS
+         Slightly advanced topics:
+        Simple primitives in JS (number, strings, booleans)
+        Complex primitives in JS (arrays, objects)
+        Functions in Javascript
+        Practise problem solving    
+          ADV topics:
+        Callback functions, Event loop, callback queue, Asynchronous programming
+        Callback hell and Promises
+---------------------------------------------------------------------------------------
 1.Why languages?
 -----------------
-RAM: Random Access Memory-photos ,videos reside here when u r using them
-                        -only understands binary (0s and 1s)
-SSD: Solid State Drive- when you run a program its loaded from SSD to RAM
+         --- RAM: Random Access Memory  -photos ,videos reside here when u r using them
+Computer |                              -only understands binary (0s and 1s)
+         --- SSD: Solid State Drive     - when you run a program(photo/video) its loaded from SSD to RAM
+                                        -only understands binary (0s and 1s)
+
 languages are used to write applications
 in the end , all the language convert high level into 0's and 1's 
 Every language has a compiler which converts the developer code into 01
@@ -22,12 +39,15 @@ an error in the code                              |  3.Example - Javascript, Pyt
 3. Example - C++, Java, Rust, Golang 
 
 
-//how to run js code :
+How to run js code :
 console.log("Hello World"); //print output to console
 
 
 3.Why JS >> Other languages in some use-cases
 ---------------------------------------------
+browser can only understand JS html css(not technically true)
+
+
 4.Static vs dynamic languages
 --------------------------------
 static
@@ -50,8 +70,8 @@ dynamic
 
 6.Simple primitives in JS (number, strings, booleans)
 -----------------------------------------------------
-Variables(let,const,var) : are used to store data.type can also change in js . VAR LET  CONST
-Daata types-strings,number,boolean
+Variables(let,const,var) : are used to store data type ,  can also change in js . VAR LET  CONST
+Data types-strings,number,boolean
 If/else conditions
 Loops-For loop
 
@@ -71,21 +91,46 @@ if (gender === "male") {
   console.log(firstName + " " + lastName + " is a " + gender + ".");
 }
 
-for (let i = 0; i <= 3; i++) {
+for (let i = 0; i <= 1000; i++) {
   console.log(i);
 }
 
 7.Complex primitives in JS (arrays, objects)
 ---------------------------------------------
 1. Arrays 
+  let persons = ["Rishu", "Anjali", "Aman", "Neha"];
+  -used to store multiple values in a single variable
+  -ordered collection of items
+  console.log(persons[0]); //prints Rishu
 2. Objects
+  let person = {
+    firstName: "Rishu",
+    lastName: "Kumar",
+    age: 21,
+    gender: "male",
+  };
+  -used to store multiple values in a single variable
+  -key-value pairs
+  console.log(person.firstName); //prints Rishu
+  console.log(person["lastName"]); //prints Kumar
+
+  Array of objects
+  const peopleArray = [
+    { firstName: "Rishu", lastName: "Kumar", gender: "male" },
+    { firstName: "Anjali", lastName: "Sharma", gender: "female" },
+    { firstName: "Aman", lastName: "  Singh", gender: "male" },
+    { firstName: "Neha", lastName: "Verma", gender: "female" },
+  ];
+  console.log(peopleArray[0].firstName); //prints Rishu 
+  console.log(peopleArray[1]["lastName"]); //prints Sharma
+
 
     Let’s write some code -  
     1. Write a program prints all the even numbers in an array 
     2. Write a program to print the biggest number in an arrya 
     3. Write a program that prints all the male people’s first name given a complex object 
     4. Write a program that reverses all the elements of an array
-//Meth0de 1
+Method 1
 let array = [1, 2, 3, 4, 5, 6];
 for (let i = 0; i <= array.length; i++) {
   if (array[i] % 2 == 0) {
@@ -93,7 +138,7 @@ for (let i = 0; i <= array.length; i++) {
   }
 }
   
-//Methode 2
+Methode 2
 let array = [1, 2, 3, 4, 5, 6, 7];
 let evenArray = [];
 for (let i = 0; i <= array.length; i++) {
@@ -157,18 +202,21 @@ function displayResultInPrettyFormat(data) {
   console.log("The sum of the two numbers is: " + data);
 }
 findSumResult(3, 4, displayResultInPrettyFormat); //CallBack function
-/*
-//SetTimeout function
--global function provided by JS
+
+SetTimeout function
+--------------------------
+  -global function provided by JS
+  -calls after a delay
 
 function greet() {
   console.log("Hello World");
 }
 setTimeout(greet, 1 * 1000);
 
-//SetInterval function
--global function provided by JS
--calls after an intervel 
+SetInterval function
+---------------------------
+  -global function provided by JS
+  -calls after an intervel 
 
 setInterval(greet, 2 * 1000);
 
@@ -196,34 +244,50 @@ console.log(hours + ":" + minutes + ":" + seconds);
 -----------------------------------------------------------------------------
 -callback function : passing function as an argument to another function
 
-*/
 function square(n) {
   return n * n;
 }
+function cube(n) {
+  return n * n * n;
+}
 
-function sumOfSquares(a, b) {
-  const val1 = square(a);
-  const val2 = square(b);
-  return val1 + val2;
-}
-const ans = sumOfSquares(2, 3);
-console.log(ans);
-function square(a) {
-  return a * a;
-}
-function sumOfSomething(a, b, fn) {
-  //fn is a callback function
+function sumOfSomething(a, b, fn) {    //fn is a callback function
+  
   const val1 = fn(a);
   const val2 = fn(b);
   return val1 + val2;
-}
+}                                         //functional argument
 console.log(sumOfSomething(2, 3, square)); //prints 13
+
+
+-Async functions 
+What does sync and async mean?
+--------------------------------
+synchronous (means together,only one thing happening at a time) code-blocking code-executes line by line
+asynchronous code-non blocking code-executes independently ( delegating and context switching)
+*/
+
 /*
 
+
+
 Upcoming:
-  
-11.Callback hell and Promises
-------------------------------
-Async functions vs sync functions
------------------------------------
+
+
+-Promises 
+-JS functions  
+-Async await
+---------------------------------------------
+
+What does sync and async mean?
+--------------------------------
+synchronous (means together,only one thing happening at a time) code-blocking code-executes line by line
+asynchronous code-non blocking code-executes independently ( delegating and context switching)
+
+
+Intro to Asynchronous function (setTimeout)- global function provided by JS
+---------------------------------------------
+-setTimeout(function, delay in ms)
+-calls after a delay
+
 */
