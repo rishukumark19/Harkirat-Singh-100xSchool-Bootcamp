@@ -1,0 +1,31 @@
+<!-- DOM : Document Object Model 
+     The DOM abstracts the structure of the document into a tree of objects, allowing scripts to
+manipulate the content and structure dynamically. This abstraction enables more complex
+interactions and functionalities beyond just static HTML.
+     
+    
+    
+    -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <h2>My Interests</h2>
+
+    <!-- Existing list -->
+    <ul id="todoList">
+      <li>Swim</li>
+      <li>Badminton</li>
+    </ul>
+
+    <!-- Input + Button -->
+    <input type="text" id="newTodo" placeholder="Enter new interest" />
+    <button onclick="addTodo()">Add</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
