@@ -1,5 +1,5 @@
 # 🚀 100xDevs Bootcamp Journey
-
+Hey 
 Minimalist logs and notes of my full-stack learning journey.
 
 - 🎓 **Course**: [100xSchool Bootcamp](https://harkirat.classx.co.in/new-courses/24)
