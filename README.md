@@ -4,13 +4,13 @@ Welcome to my learning logs for the **100xDevs Bootcamp**. This repository is a 
 
 - 🎓 **Course**: [100xSchool Bootcamp](https://harkirat.classx.co.in/new-courses/24)
 - 👨‍🏫 **Instructor**: [Harkirat Singh](https://github.com/hkirat) ([@hkirat](https://github.com/hkirat))
-- 🐦 **Socials**: [**@rishukumark19**](https://x.com/rishukumark19) (Tracking daily progress)
+- � **Socials**: [**@rishukumark19**](https://x.com/rishukumark19) (Tracking daily progress)
 
 ---
 
 ## 📂 Learning Index
 
-### 🧱 Week 0: The Foundations
+### 📦 Week 0: The Foundations
 
 - **Web Development Warmup**
   - [HTML & CSS Learning Notes](./Week 0 Prerequisites/001-Web-Dev-Warmup/Html-Css-basics-simple-zerodha-app/html-css-learning-notes.md)
@@ -29,28 +29,28 @@ Welcome to my learning logs for the **100xDevs Bootcamp**. This repository is a 
 
 ---
 
-## �️ Project Showcases
+## ⭐ Project Showcases
 
-### � ElevenLabs Landing Page Clone
+### 🔹 ElevenLabs Landing Page Clone
 
 > A high-fidelity recreation of the ElevenLabs signup and landing experience.
 > <img src="./Week 1/html-class/elevenlabs/elevenlabs.png" width="100%" alt="ElevenLabs Preview">
 
-**� Quick Links:**
+**🔗 Quick Links:**
 
-- [� View HTML Code](./Week 1/html-class/elevenlabs/elevenlabs-signup.html)
-- [� Project Directory](./Week 1/html-class/elevenlabs/)
+- [📄 View HTML Code](./Week 1/html-class/elevenlabs/elevenlabs-signup.html)
+- [📁 Project Directory](./Week 1/html-class/elevenlabs/)
 
 ---
 
-### � VS-Code Landing Page Clone
+### 🔹 VS-Code Landing Page Clone
 
 > Replicating the modern, developer-focused aesthetic of the VS-Code homepage.
 > <img src="./Week 0 Prerequisites/001-Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.png" width="100%" alt="VS-Code Preview">
 
-**� Quick Links:**
+**🔗 Quick Links:**
 
-- [� View HTML Code](./Week 0 Prerequisites/001-Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.html)
+- [📄 View HTML Code](./Week 0 Prerequisites/001-Web-Dev-Warmup/Html-and-Css-Vs-code/vs-code-landing-page.html)
 - [📁 Project Directory](./Week 0 Prerequisites/001-Web-Dev-Warmup/Html-and-Css-Vs-code/)
 
 ---
@@ -75,19 +75,19 @@ Welcome to my learning logs for the **100xDevs Bootcamp**. This repository is a 
 
 ---
 
-### � JavaScript Prerequisites
+### 🔹 JavaScript Prerequisites
 
 > Documenting the mental shift into logical programming and APIs.
 > <img src="./Week 0 Prerequisites/002-JavaScript/JsPre.png" width="100%" alt="JS Prerequisites Preview">
 
-**� Quick Links:**
+**🔗 Quick Links:**
 
 - [🧠 JS Foundations](./Week 0 Prerequisites/002-JavaScript/001-JsFoundations.js)
 - [🌐 JS APIs](./Week 0 Prerequisites/002-JavaScript/002-Basics-JS-APIS.js)
 
 ---
 
-## � Social Proof
+## 📈 Social Proof
 
 I share my daily learnings and code snippets on X. Join the conversation!
 👉 [**@rishukumark19**](https://x.com/rishukumark19)
