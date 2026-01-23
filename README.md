@@ -70,6 +70,9 @@ Minimalist logs and notes of my full-stack learning journey.
     - 📝 `README.md`
     - 📝 `test1.js`
 - 📁 `week-4`
+    - 📁 `react-basics`
+    - 📝 `index.html`
+    - 📝 `README.md`
 - 📁 `week-5`
 - 📁 `week-6`
 - 📁 `week-10`
