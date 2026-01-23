@@ -46,13 +46,13 @@ Welcome to my learning logs for the **100xDevs Bootcamp**. This repository docum
 ### 🔹 Evolution: ElevenLabs Landing Page
 
 > A high-fidelity recreation of the ElevenLabs signup and landing experience.
-> <img src="./Week%201/html-class/elevenlabs/elevenlabs.png" width="100%" alt="ElevenLabs Preview">
+> <img src="./Week%201/html-class/elevenlabs-signup/elevenlabs-signup.png" width="100%" alt="ElevenLabs Preview">
 
 <p align="left">
-  <a href="./Week%201/html-class/elevenlabs/elevenlabs-signup.html">
+  <a href="./Week%201/html-class/elevenlabs-signup/elevenlabs-signup.html">
     <img src="https://img.shields.io/badge/View_Source_Code-black?style=for-the-badge&logo=github" alt="View Code">
   </a>
-  <a href="./Week%201/html-class/elevenlabs/">
+  <a href="./Week%201/html-class/elevenlabs-signup/">
     <img src="https://img.shields.io/badge/Project_Directory-blue?style=for-the-badge&logo=files" alt="Explore Directory">
   </a>
 </p>

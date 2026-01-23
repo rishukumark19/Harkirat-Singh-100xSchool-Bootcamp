@@ -146,3 +146,80 @@ while (j < 5) {
 
 // Assignment:
 // Write a function called sum that finds the sum from 1 to a given number.
+
+//--------------------------------------------------------------------------------
+// Complex types in JavaScript
+
+// 1. Objects
+// An object in JavaScript is a collection of key-value pairs.
+// Each key is a string, and each value can be any valid JS type (including another object).
+
+let user = {
+  name: "Harkirat",
+  age: 19,
+};
+
+console.log("Harkirat's age is " + user.age); // dot notation to access a property
+
+// Assignment #1:
+// Write a function that takes a user object as input and greets them with their name and age.
+// Example shape: { name: "Harkirat", age: 21 }
+
+// Assignment #2:
+// Write a function that takes a new object with name, age and gender and greets the user
+// with their gender.
+// Example: "Hi Mr/Mrs/Others Harkirat, your age is 21".
+
+// Assignment #3:
+// Extend the greeting to also tell the user if they are legal to vote or not.
+
+// 2. Arrays
+// Arrays let you group related data together in an ordered list.
+
+const users = ["harkirat", "raman", "diljeet"];
+const totalUsers = users.length; // number of items in the array
+const firstUser = users[0]; // accessing by index (0-based)
+
+// Assignment:
+// Write a function that takes an array of numbers as input and returns a new array
+// with only even values. Read about Array.prototype.filter in JS.
+
+// 3. Array of objects
+// You can combine arrays and objects to represent more complex structures.
+
+const usersList = [
+  {
+    name: "Harkirat",
+    age: 21,
+  },
+  {
+    name: "raman",
+    age: 22,
+  },
+];
+
+const firstUserObj = usersList[0]; // first object in the array
+const firstUserAge = usersList[0].age; // age of the first user
+
+// Assignment:
+// Write a function that takes an array of users as input and returns only the users
+// who are more than 18 years old.
+
+// 4. Object of objects (nested objects)
+// Objects can contain other objects as values, enabling nested structures.
+
+const user1 = {
+  name: "harkirat",
+  age: 19,
+  address: {
+    city: "Delhi",
+    country: "India",
+    address: "1122 DLF",
+  },
+};
+
+const city = user1.address.city; // accessing nested property
+
+// Assignment:
+// Create a function that takes an array of objects as input and returns the users
+// whose age > 18 and are male.
