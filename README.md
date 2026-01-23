@@ -74,11 +74,26 @@ Minimalist logs and notes of my full-stack learning journey.
     - 📝 `index.html`
     - 📝 `README.md`
 - 📁 `week-5`
+    - 📁 `level-1`
+    - 📁 `solutions`
 - 📁 `week-6`
+    - 📁 `1-use-memo`
+    - 📁 `2-use-callback`
+    - 📁 `3-use-ref`
+    - 📁 `solutions`
+    - 📝 `README.md`
 - 📁 `week-10`
+    - 📁 `1-postgres-simple`
+    - 📁 `2-prisma-simple`
 - 📁 `week-11`
+    - 📁 `solution`
+    - 📁 `worker-app-1`
+    - 📁 `worker-app-2`
 - 📁 `week-12`
+    - 📁 `12.1 Relations`
 - 📁 `week-14`
+    - 📁 `solution`
+    - 📝 `README.md`
 
 ---
 
