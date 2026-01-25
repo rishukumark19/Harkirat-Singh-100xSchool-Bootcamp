@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Course-100xDevs-blueviolet?style=for-the-badge" alt="Course">
   <img src="https://img.shields.io/badge/Status-Learning-success?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Progress-Week%201-orange?style=for-the-badge" alt="Progress">
+  <img src="https://img.shields.io/badge/Progress-Week%202-orange?style=for-the-badge" alt="Progress">
 </p>
 
 Welcome to my learning logs for the **100xDevs Bootcamp**. This repository documents my transition from basic HTML/CSS to building complex full-stack applications.
@@ -32,21 +32,47 @@ Welcome to my learning logs for the **100xDevs Bootcamp**. This repository docum
   - [JS Foundations](./Week%200%20Prerequisites/002-JavaScript/001-JsFoundations.js)
   - [JS Foundation Offline](./Week%200%20Prerequisites/002-JavaScript/001-JsFundation-offline.js)
   - [JS APIs & Methods](./Week%200%20Prerequisites/002-JavaScript/002-Basics-JS-APIS.js)
+  - [Loops & Callbacks](./Week%200%20Prerequisites/002-JavaScript/003-Loops-Functions-and-callbacks.js)
+  - [Async, Promises & Await](./Week%200%20Prerequisites/002-JavaScript/004-Async-Await-And-Promises.js)
 
 ### 🌊 Week 1: Advanced Layouts & UI
 
 - **HTML/CSS Class**
-  - [ElevenLabs Landing Page](./Week%201/html-class/elevenlabs/)
+  - [ElevenLabs Landing Page](./Week%201/html-class/elevenlabs-signup/)
+  - [ElevenLabs Contact Page](./Week%201/html-class/elevenlabs-contact/)
+  - [VS-Code Components Practice](./Week%201/html-class/vscode.html)
   - [Generic HTML Practice](./Week%201/html-class/index.html)
+
+### ⚡ Week 2: JavaScript Deep Dive
+
+- **Core JS Fundamentals**
+  - [JS 101 - Interpreted vs Compiled](./Week%202/index.js)
+  - [Complex Types & Assignments](./Week%202/index.js)
 
 ---
 
 ## ⭐ Project Showcases
 
-### 🔹 Evolution: ElevenLabs Landing Page
+### 🔹 Evolution: ElevenLabs Contact Sales
 
-> A high-fidelity recreation of the ElevenLabs signup and landing experience.
-> <img src="./Week%201/html-class/elevenlabs-signup/elevenlabs-signup.png" width="100%" alt="ElevenLabs Preview">
+> A pixel-perfect recreation of the ElevenLabs enterprise contact form.
+> <img src="./Week%201/html-class/elevenlabs-contact/elevenlabs-contact.png" width="100%" alt="ElevenLabs Contact Preview">
+
+<p align="left">
+  <a href="./Week%201/html-class/elevenlabs-contact/index.html">
+    <img src="https://img.shields.io/badge/View_Source_Code-black?style=for-the-badge&logo=github" alt="View Code">
+  </a>
+  <a href="./Week%201/html-class/elevenlabs-contact/">
+    <img src="https://img.shields.io/badge/Project_Directory-blue?style=for-the-badge&logo=files" alt="Explore Directory">
+  </a>
+</p>
+
+---
+
+### 🔹 Evolution: ElevenLabs Signup Page
+
+> A high-fidelity recreation of the ElevenLabs signup experience.
+> <img src="./Week%201/html-class/elevenlabs-signup/elevenlabs-signup.png" width="100%" alt="ElevenLabs Signup Preview">
 
 <p align="left">
   <a href="./Week%201/html-class/elevenlabs-signup/elevenlabs-signup.html">
