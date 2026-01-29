@@ -149,4 +149,5 @@ I share my daily learnings and code snippets on X. Join the conversation!
 
 <p align="center">
   <i>Made with ❤️ by Rishu Kumar</i>
+  <i>Crafted with curiosity.</i>
 </p>
