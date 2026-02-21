@@ -49,7 +49,8 @@
 // ==============================
 // Javascript - The basics
 // ==============================
-//
+//Simplest JS code :
+console.log("Hi this is the beginning of js code ");
 // Web development
 // ---------------
 // Web development involves writing a lot of HTML, CSS and JS code.
@@ -78,7 +79,7 @@
 //    - WebAssembly (Wasm)
 //    - C++/Rust code can run in the browser only after being compiled
 //      to WebAssembly.
-//
+
 // ==============================
 // End - Javascript - The basics
 // ==============================
@@ -86,6 +87,7 @@
 // Properties of JavaScript
 // ==============================
 //
+
 // Every language has its own unique features.
 // JavaScript has the following core properties:
 //
@@ -150,6 +152,10 @@
 // - Tools/runtimes like Bun are trying to improve performance,
 //   but there is still a gap vs C++/Rust level performance.
 //
+//NOTES:
+// comparison c++ is compled langage , js compiled at runtime(just in time compilation).so c++ is fast nd js is slow in running due to compline.
+//JS is dynamically typed: means we can change the type of variable at runtime. else c++ is statically typed.
+//memory management : garbage value :if variable is not needed for a long time , it needed to be removed for the time being during execution of program.but it makes it slow .
 // ==============================
 // End - Properties of JS
 // ==============================
@@ -240,7 +246,41 @@ while (j < 5) {
 //
 // Assignment:
 // Write a function called sum that finds the sum from 1 to a number.
+//---------------------------------------------------------------------
+//NOTES:
+//building blocks of code is syntax
+//variable are storage of data.
+//syntex : var/let/const <variable name> = <value>: let a =1: use let/const only.
+//data types: 3 types : number, string, boolean.
+//operators: +,-,*,/,%,==,===,!=,!==,&&,||,! (aruthmetic ,comparison,logical)
+//function: functions are ued to group together bunch of logic .
+console.log("-----function example-----");
+function greet(nameOfPerson) {
+  console.log("Hello " + nameOfPerson);
+}
+greet("John");
+//conditionals :
 //
+console.log("--------conditionals example with function--------");
+function isLegal(age) {
+  if (age >= 18) {
+    console.log("you can vote");
+  } else {
+    console.log("you cannot vote");
+  }
+}
+console.log("66 years of age can vote ?");
+isLegal(66);
+console.log("2 years of age can vote ?");
+isLegal(2);
+//loops:
+//use to do when we hv to repeat it on fixed number of times.
+//
+console.log("--------loops example--------");
+for (let i = 1; i <= 19; i++) {
+  isLegal(i);
+  console.log(" as age is " + i);
+}
 // ==============================
 // End - Syntax of Javascript
 // ==============================
@@ -292,7 +332,7 @@ const firstUser = users[0];
 // and returns a new array with only even values.
 // Hint: Read about the `filter` method in JS. [page:15]
 //
-//
+
 // 3) Array of Objects
 // -------------------
 // - We can have arrays whose elements are objects (more structured data). [page:15]
@@ -334,6 +374,36 @@ const city = user1Nested.address.city;
 // Create a function that takes an array of objects as input,
 // and returns the users whose age > 18 and whose gender is "male". [page:15]
 //
+//NOTES: we are learning 2 things : objects and arrays. in rust/java(objects are called hashmaps and arrays are called vectors)
+//object : key value stores : collection of key value pairs. each key is a string and each value can be any valid JS type (including another object).
+
+console.log("------object example------");
+let userName1 = "rishabh";
+let userAge1 = 21;
+let userGender1 = "male";
+
+let userName2 = "rishu";
+let userAge2 = 10;
+let userGender2 = "male";
+
+//now write function which can tell if they are allowed to vote or not
+console.log("------function example with if-else------");
+function isVote(name, age) {
+  if (age >= 18) {
+    console.log(name + " is allowed to vote as he is " + age);
+  } else {
+    console.log(name + " is not allowed to vote as he is " + age);
+  }
+}
+console.log("gonna print if they are elegibal to vote or not ");
+isVote(userName1, userAge1);
+isVote(userName2, userAge2);
+//Loops : used to repeat a block of code multiple times.
+console.log("------loops example 4 times------");
+for (let i = 0; i < 4; i++) {
+  console.log("hello world number : ", i);
+}
+
 // ==============================
 // End - Complex types
 // ==============================
